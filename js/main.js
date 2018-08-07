@@ -175,7 +175,7 @@ createRestaurantHTML = (restaurant) => {
   image.setAttribute('tabindex', '0');
   li.append(image);
 
-  const name = document.createElement('h2');
+  const name = document.createElement('h3');
   name.innerHTML = restaurant.name;
   name.setAttribute('tabindex', '0');
   li.append(name);
